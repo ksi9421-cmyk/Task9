@@ -56,9 +56,13 @@ Unreal 9번과제
 #### 3. 프로젝트 구조
 
 Source/
+
  ├── GameMode/             정답 생성, 승리/무승부 판정, 게임 리셋
+
  ├── PlayerController/     입력 처리, Server RPC, UI 업데이트
+
  ├── PlayerState/          시도 횟수 관리 (Replication)
+
  ├── Widgets/              채팅/결과/공지 위젯
 
  ---------------------
